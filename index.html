@@ -1,47 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Wash-To-Go</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Georgia, serif;
+            background: #f3f3f3;
+        }
+
+        .head{
+            background: #1a00cc;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stars{
+            color: gold;
+            font-size: 14px;
+        }
+
+        .head button{
+            border: 1px solid white;
+            background: transparent;
+            color: white;
+            padding: 8px 15px;
+        }
+
+        .text{
+            padding: 40px;
+            font-size:30px;
+        }
+
+        .text h1{
+            color: #1a00cc;
+            font-size: 40px;
+        }
+
+        .picture{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .picture img{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+
+        .button{
+            text-align: center;
+            margin: 30px;
+        }
+
+        .button a{
+            background: #1a00cc;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            
+        }
+
+        .footer{
+            text-align: center;
+            color: #1a00cc;
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<div class="nav">
-    <h2>WASH-TO-GO</h2>
-    <div>
-        <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="about.html">About</a>
-        <button>Contact</button>
+<div class="head">
+
+    <div class="left">
+        <div>
+            <div class="stars">★★★★★</div>
+            <small>5 STAR RATING SHOP</small>
+        </div>
+
+        <h2>WASH-<br>TO-GO</h2>
     </div>
+
+    <button>CONTACT</button>
 </div>
 
-<!-- HERO TEXT -->
-<div class="container">
+<div class="text">
     <h1>Foam and Flow, Watch It Glow!</h1>
 
-    <p>
-        Keeping your car clean isn't just about looks—it's about care. 
-        We make sure every vehicle shines and feels fresh.
-    </p>
-
-    <p>
-        We make car cleaning fast and easy. Whether quick wash or full detail,
-        we give quality service for your time.
-    </p>
-
-    <p>
-        We use safe products to protect your car and give a clean finish inside and out.
-    </p>
+    <p>Keeping your car clean isn’t just about looks — it’s about proper care and maintenance. A clean car not only shines outside but also feels better to use every day.</p>
+    <p>At Wash-To-Go, we provide fast and reliable car wash services that fit your busy schedule. Whether you need a quick wash or a full clean, we’ve got you covered.</p>
+    <p>We use safe and high-quality cleaning products to protect your vehicle and make sure it looks fresh, spotless, and well-maintained inside and out.</p>
 </div>
 
-<!-- BUTTONS -->
-<div class="buttons">
+<div class="picture">
+    <img src="https://i.ibb.co/Jjnk8B8j/fdca72d5165ba813bebfe33efad1e57c.jpg" alt="fdca72d5165ba813bebfe33efad1e57c">
+    <img src="https://i.ibb.co/7dj6LGs0/images.jpg">
+    <img src="https://i.ibb.co/JjSsWm9q/images-1.jpg" alt="images (1)" border="0">
+</div>
+
+<div class="button">
     <a href="about.html">ABOUT</a>
     <a href="#">CONTACT</a>
     <a href="services.html">SERVICES</a>
 </div>
 
+<p class="footer">WWW.WASH-TO-GO.COM</p>
+
 </body>
-</html>
+    </html>
